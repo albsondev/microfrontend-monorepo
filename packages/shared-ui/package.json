@@ -1,0 +1,13 @@
+{
+    "name": "@mono-repo-project/shared-ui",
+    "version": "0.0.1",
+    "main": "./src/index.ts",
+    "peerDependencies": {
+      "react": ">=18",
+      "@angular/core": ">=15"
+    },
+    "dependencies": {
+      "styled-components": "^6.1.1"
+    }
+  }
+  
