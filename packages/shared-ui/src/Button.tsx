@@ -1,4 +1,10 @@
 import styled from 'styled-components';
+import * as React from 'react';
+
+interface ButtonProps {
+  children: React.ReactNode;
+  onClick: () => void;
+}
 
 /**
  * Botão estilizado reutilizável.
@@ -22,5 +28,8 @@ const StyledButton = styled.button`
   }
 `;
 
-export default Button;
+const Button: React.FC<ButtonProps> = ({ children, onClick }) => {
+  return <StyledButton onClick={onClick}>{children}</StyledButton>;
+};
 
+export default Button;

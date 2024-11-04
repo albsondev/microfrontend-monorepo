@@ -8,6 +8,7 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+/packages/shared-ui/node_modules
 
 # testing
 /coverage
